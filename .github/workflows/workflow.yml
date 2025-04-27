@@ -11,5 +11,5 @@ jobs:
     runs on: ubuntu-latest
     steps:
       - name: "Printing sample text"
-        run: "echo "hello world"
+        run: echo "hello world"
 
