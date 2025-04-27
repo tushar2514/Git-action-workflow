@@ -1,0 +1,15 @@
+name: "Sample git action workflow"
+
+on:
+  push:
+    branches:
+      - master
+      - production
+
+jobs:
+  build
+    runs on: ubuntu-latest
+    steps:
+      -name: "Printing sample text"
+        run: /
+          echo "hello world"
