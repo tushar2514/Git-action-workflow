@@ -7,7 +7,7 @@ on:
       - production
 
 jobs:
-  build:
+  build:                  //this is the name of the
     runs-on: ubuntu-latest
     steps:
       - name: "Printing sample text"
